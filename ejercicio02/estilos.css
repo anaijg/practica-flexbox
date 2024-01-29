@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, serif;   
+}
+
+header {
+    padding: 30px;
+    background-color: #253C59;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+/* lo único que cambia respecto al ejercicio anterior es que ahora lo centramos en la fila */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #99b4bf;
+}
+
+nav a {
+    color: #253C59;
+    text-decoration: none;
+    padding: 15px; 
+}
+
+nav a:hover {
+    background-color:#BF8D30;
+    color: #99b4bf;
+}

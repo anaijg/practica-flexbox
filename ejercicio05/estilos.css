@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, serif;   
+}
+
+header {
+    padding: 3%;
+    text-align: center;
+    background-color: #253C59;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+section {
+    height: auto;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    background-color: #253C59;
+}
+/* en la parte de arriba los elementos que no quepan en el contenedor no saltan de línea si no caben*/
+#no-wrap {
+    flex-wrap: nowrap;
+}
+/* con el valor wrap hacemos que se amolden a su contenedor*/
+#wrap {
+    flex-wrap: wrap;
+}
+
+img {
+    border: dashed 1px #555;
+    margin:1%;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}

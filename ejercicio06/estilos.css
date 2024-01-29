@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    color: white;
+    text-align: right;
+    background-color: black;
+    font-size: 2em;
+}
+/* contenedor flex; el valor por defecto de flex-direction es row, así que los elementos que contenga se situarán uno al lado del otro*/
+section {
+    display: flex;
+}
+/* los elementos article están dentro del contenedor flex, ubicados uno al lado del otro*/
+article {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#articulo-1 {
+    background-color: #7ebdbb;
+}
+
+#articulo-2 {
+    background-color: #b6ebb3;
+}
+
+#articulo-3 {
+    background-color: #bacee3;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 10px;
+}

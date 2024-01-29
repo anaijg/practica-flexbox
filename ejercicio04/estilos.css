@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, serif;   
+}
+
+header {
+    padding: 30px;
+    background-color: #253C59;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+/* hasta ahora la propiedad flex-direction estaba en su valor por defecto: row; si queremos que en el contenedor flex los elementos se dispongan verticalmente ponemos column*/
+nav {
+    display: flex;
+    flex-direction: column; 
+    background-color: #99b4bf;
+    width: 15%;
+}
+
+nav a {
+    color: #253C59;
+    text-decoration: none;
+    padding: 15px; 
+    
+}
+
+nav a:hover {
+    background-color:#BF8D30;
+    color: #99b4bf;
+}
